@@ -74,15 +74,11 @@ body {
 }
 
 .result-container {
-  display: none;
+  display: none; /* disembunyikan di awal */
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-100%, -50%);
   transition: 0.2s;
 }
 .gif-result {
